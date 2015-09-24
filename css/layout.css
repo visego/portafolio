@@ -262,53 +262,44 @@ ul#nav li.current a { color: #F06000; }
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 
-#resume {
+#resume, #work, #skills {
    background: #fff;
    padding-top: 65px;
-   padding-bottom: 72px;
+   padding-bottom: 0px;
    overflow: hidden;
+   border-bottom: 1px solid #C2C2C9;
 }
 
-#resume a, #resume a:visited  { color: #C22E41; }
-#resume a:hover, #resume a:focus { color: #313131; }
+#resume a, #resume a:visited,  #work a, #work a:visited, #skills a, #skills a:visited { color: #C22E41; }
+#resume a:hover, #resume a:focus, #work a:hover, #work a:focus, #skills a:hover, #skills a:focus { color: #313131; }
 
-#resume h1 {
+#resume h1, #work h1, #skills h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
-#resume h1 span {
+#resume h1 span, #work h1 span, #skills h1 span {
    border-bottom: 3px solid #C22E41;
    padding-bottom: 6px;
 }
-#resume h3 {
+#resume h3, #work h3, #skills h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#resume .header-col { padding-top: 9px; }
-#resume .main-col { padding-right: 10%; }
+#resume .header-col, #work .header-col, #skills .header-col { padding-top: 9px; }
+#resume .main-col, #work .main-col, #skills .main-col { padding-right: 10%; }
 
-.education, .work {
-   margin-bottom: 48px;
-   padding-bottom: 6px;
-   padding-top:30px;
-   border-bottom: 1px solid #E8E8E8;
-}
-
-.work{
-  padding-top:50px;
-}
-#resume .info {
+#resume .info, #work .info, #skills .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
 }
-#resume .info span {
+#resume .info span, #work .info span, #skills .info span{
    margin-right: 5px;
    margin-left: 5px;
 }
-#resume .date {
+#resume .date, #work .date, #skills .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
@@ -317,13 +308,6 @@ ul#nav li.current a { color: #F06000; }
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
-
-#skills{
-   background: #fff;
-   padding-top: 65px;
-   padding-bottom: 72px;
-   overflow: hidden;
-}
 }
 .bars {
 	width: 95%;
@@ -371,12 +355,12 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: photoshop 2s ease;
 }
 .illustrator {
-  	width: 55%;
+  	width: 100%;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
 .wordpress {
-  	width: 50%;
+  	width: 80%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
@@ -456,7 +440,7 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 60px;
 }
 #portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font: 20px/28px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
@@ -1018,19 +1002,19 @@ footer .social-links li {
 
 footer .social-links li:first-child { margin-left: 0; }
 
-footer .social-links li a .fa-facebook:hover{
+footer .social-links li a .fa-facebook{
  color:#3b5998
 } 
-footer .social-links li a .fa-linkedin:hover {
+footer .social-links li a .fa-linkedin {
  color:#007bb6
 }
-footer .social-links li a .fa-twitter:hover {
+footer .social-links li a .fa-twitter {
  color:#00aced
 }
-footer .social-links li a .fa-google-plus:hover {
+footer .social-links li a .fa-google-plus {
  color:#dd4b39
 }
-footer .social-links li a .fa-github:hover {
+footer .social-links li a .fa-github {
  color:#4078C0
 }
 
